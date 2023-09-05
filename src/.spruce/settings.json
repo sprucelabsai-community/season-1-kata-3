@@ -1,0 +1,31 @@
+{
+  "scriptUpdater": {
+    "skipped": []
+  },
+  "installed": [
+    "skill",
+    "test",
+    "schema",
+    "permission",
+    "event",
+    "view",
+    "store"
+  ],
+  "dependencies": [
+    {
+      "id": "**",
+      "namespace": "heartwood"
+    }
+  ],
+  "events": {
+    "lastSync": {
+      "contractDestinationDir": "#spruce/events",
+      "schemaTypesLookupDir": "#spruce/schemas",
+      "skillEventContractTypesFile": "@sprucelabs/mercury-types/build/types/mercury.types",
+      "eventBuilderFile": "@sprucelabs/mercury-types"
+    },
+    "listenerCacheKeys": {
+      "httpsmercuryspruceai": "didbootskillv2023_09_05getmetaeightbitstoriesv2023_09_05savemetaeightbitstoriesv2023_09_05"
+    }
+  }
+}
