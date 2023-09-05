@@ -1,4 +1,4 @@
-# Season 1 - Kata 1
+# Season 1 - Kata 2
 
 
 ## Useful links
